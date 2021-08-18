@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AppGitHub/Pods-AppGitHub-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AmityUIKit/AmityUIKit.framework/AmityUIKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AmitySDK/AmitySDK.framework/AmitySDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Realm/Realm.framework/Realm

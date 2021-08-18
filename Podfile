@@ -6,7 +6,7 @@ target 'AppGitHub' do
   use_frameworks!
 
   # Pods for AppGitHub
-pod 'AmityUIKit', :source => 'https://github.com/AmityCo/Amity-Social-Cloud-UIKit-iOS-Pod-Pulse.git'
+pod 'AmityUIKit', '2.0.4', :source => 'https://github.com/ThavornK/TestPodInstall.git'
 
   target 'AppGitHubTests' do
     inherit! :search_paths

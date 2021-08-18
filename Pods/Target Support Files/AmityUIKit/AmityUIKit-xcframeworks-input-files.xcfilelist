@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/AmityUIKit/AmityUIKit-xcframeworks.sh
+${PODS_ROOT}/AmityUIKit/Distribution/AmityUIKit.xcframework
+${PODS_ROOT}/AmityUIKit/Distribution/AmitySDK.xcframework
+${PODS_ROOT}/AmityUIKit/Distribution/Realm.xcframework

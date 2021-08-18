@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -47,6 +47,9 @@
 		B7F203E71FEEFE8C098FA8E4 /* Pods-AppGitHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGitHub.debug.xcconfig"; path = "Target Support Files/Pods-AppGitHub/Pods-AppGitHub.debug.xcconfig"; sourceTree = "<group>"; };
 		D3652A91C340BA1288D0FEF8 /* Pods-AppGitHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGitHub.release.xcconfig"; path = "Target Support Files/Pods-AppGitHub/Pods-AppGitHub.release.xcconfig"; sourceTree = "<group>"; };
 		E63F39627FAB29206ABCA991 /* Pods-AppGitHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGitHubTests.release.xcconfig"; path = "Target Support Files/Pods-AppGitHubTests/Pods-AppGitHubTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC8F33E226CCFE690008367D /* AmitySDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AmitySDK.xcframework; path = Pods/AmityUIKit/Distribution/AmitySDK.xcframework; sourceTree = "<group>"; };
+		FC8F33E326CCFE690008367D /* AmityUIKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AmityUIKit.xcframework; path = Pods/AmityUIKit/Distribution/AmityUIKit.xcframework; sourceTree = "<group>"; };
+		FC8F33E426CCFE690008367D /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = Pods/AmityUIKit/Distribution/Realm.xcframework; sourceTree = "<group>"; };
 		FCDD9AA326C905DE007FA131 /* AppGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDD9AA626C905DE007FA131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCDD9AA826C905DE007FA131 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,13 +104,15 @@
 				8E4FE73B2451E5BE3DD995B7 /* Pods-AppGitHubTests.debug.xcconfig */,
 				E63F39627FAB29206ABCA991 /* Pods-AppGitHubTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		DB2D9EC9E79EEFAF3936B593 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC8F33E226CCFE690008367D /* AmitySDK.xcframework */,
+				FC8F33E326CCFE690008367D /* AmityUIKit.xcframework */,
+				FC8F33E426CCFE690008367D /* Realm.xcframework */,
 				3DFEE472729366A97F4AA34B /* Pods_AppGitHub.framework */,
 				0CBE13B8BB7406B2DEA301C9 /* Pods_AppGitHub_AppGitHubUITests.framework */,
 				37BBBB524615958519D1D5C5 /* Pods_AppGitHubTests.framework */,
@@ -180,6 +185,7 @@
 				FCDD9A9F26C905DE007FA131 /* Sources */,
 				FCDD9AA026C905DE007FA131 /* Frameworks */,
 				FCDD9AA126C905DE007FA131 /* Resources */,
+				EDCB5345EFDD6EB0300D9538 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +223,7 @@
 				FCDD9AC026C905DF007FA131 /* Sources */,
 				FCDD9AC126C905DF007FA131 /* Frameworks */,
 				FCDD9AC226C905DF007FA131 /* Resources */,
+				2A5187D1733C31EAB5BFB812 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -320,6 +327,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2A5187D1733C31EAB5BFB812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppGitHub-AppGitHubUITests/Pods-AppGitHub-AppGitHubUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppGitHub-AppGitHubUITests/Pods-AppGitHub-AppGitHubUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppGitHub-AppGitHubUITests/Pods-AppGitHub-AppGitHubUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CC2F0CF30B564E575D23A6A4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,6 +386,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDCB5345EFDD6EB0300D9538 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppGitHub/Pods-AppGitHub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppGitHub/Pods-AppGitHub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppGitHub/Pods-AppGitHub-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

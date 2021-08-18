@@ -9,8 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		DF34FC2DC78DFEB492AD8FAEB658D28C /* AmityUIKit */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E4B8243B1FB6595DBB7D6E92F9FADFDE /* Build configuration list for PBXAggregateTarget "AmityUIKit" */;
+			buildConfigurationList = EE82790B076A0E2B11BA5E407A634B7F /* Build configuration list for PBXAggregateTarget "AmityUIKit" */;
 			buildPhases = (
+				CE6F22A5A670BD942E7427237C644E0D /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -19,33 +20,33 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		5DC4A625470C6AD75AD9A592DA83F38F /* Pods-AppGitHubTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EEAB2C082A359BF1D65CF2F65A4529 /* Pods-AppGitHubTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DC4A625470C6AD75AD9A592DA83F38F /* Pods-AppGitHubTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C70401D768F152AD496ED5E07122F6 /* Pods-AppGitHubTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D49A56DB1099CD87CA9A1DECC78CE25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		811EF70C482CCC15C98829C74B782A59 /* Pods-AppGitHub-AppGitHubUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3C43605D1A483911CD3303375F46F1 /* Pods-AppGitHub-AppGitHubUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		825195B2FC6C68153B64F94273069AC7 /* Pods-AppGitHubTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49428193B21C7656AB28229A03BDCAF2 /* Pods-AppGitHubTests-dummy.m */; };
-		980627C20AA38B37F8DA26F281546D87 /* Pods-AppGitHub-AppGitHubUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E80A1A25A03BC7D88BCBF4C2E27478F /* Pods-AppGitHub-AppGitHubUITests-dummy.m */; };
-		A00A240FD1849D0D3832C5783BE3CC16 /* Pods-AppGitHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B63F7E84CD39E3F5BDE9B1C831FA197D /* Pods-AppGitHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811EF70C482CCC15C98829C74B782A59 /* Pods-AppGitHub-AppGitHubUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A9C7369F3AE95FA07FCE29C4465171 /* Pods-AppGitHub-AppGitHubUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825195B2FC6C68153B64F94273069AC7 /* Pods-AppGitHubTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AEC7D5BE3E35A03847775EB7C3D459 /* Pods-AppGitHubTests-dummy.m */; };
+		980627C20AA38B37F8DA26F281546D87 /* Pods-AppGitHub-AppGitHubUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7D0E02C82DA1D9E44D5236218317A6 /* Pods-AppGitHub-AppGitHubUITests-dummy.m */; };
+		A00A240FD1849D0D3832C5783BE3CC16 /* Pods-AppGitHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71990B7A384E60EA3BD1572A3EB25F25 /* Pods-AppGitHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE078F9CF9B2A815913C5B4722609396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EC25FA849086E56C5040C860B510A6E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FB618E36A3999E03495B421AE18F8A64 /* Pods-AppGitHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738EC84EA408C24D0452622FE6BE215 /* Pods-AppGitHub-dummy.m */; };
+		FB618E36A3999E03495B421AE18F8A64 /* Pods-AppGitHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2C4FF7B84FC49D44282D941E5FF91B /* Pods-AppGitHub-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04FD674EFFFB24FBF9D859105572D3E6 /* PBXContainerItemProxy */ = {
+		5D14BE71613E83F799315C0BD336CE88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DF34FC2DC78DFEB492AD8FAEB658D28C;
 			remoteInfo = AmityUIKit;
 		};
-		942F300312A56BE46EC7D1C83675E50B /* PBXContainerItemProxy */ = {
+		B0FB36A49748CF0615B79801D24A9DA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1E3ECBF91C985C68C1944BB91F46E006;
 			remoteInfo = "Pods-AppGitHub";
 		};
-		A94E115A58D37EDAC06AB13C1EFF935F /* PBXContainerItemProxy */ = {
+		F8D3DE4EFDF4514544D68CDBB2AD5F16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -55,37 +56,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082A2B2A5500A79881CF2D19D27696CB /* AmityUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmityUIKit.debug.xcconfig; sourceTree = "<group>"; };
-		2576019F9C0D9EA70333669E0D1F4741 /* AmityUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmityUIKit.release.xcconfig; sourceTree = "<group>"; };
-		2738EC84EA408C24D0452622FE6BE215 /* Pods-AppGitHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppGitHub-dummy.m"; sourceTree = "<group>"; };
-		2C48A7800F8E983255BE3C39D9CDB9A2 /* Pods-AppGitHubTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHubTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E80A1A25A03BC7D88BCBF4C2E27478F /* Pods-AppGitHub-AppGitHubUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppGitHub-AppGitHubUITests-dummy.m"; sourceTree = "<group>"; };
-		32ECF642F64789363BAA8967B465442A /* Pods-AppGitHub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppGitHub.modulemap"; sourceTree = "<group>"; };
+		056A31A581C199CD7EF6620AF8A8E417 /* Pods-AppGitHub-AppGitHubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHub-AppGitHubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		105C8257682F0114782B42D38140453B /* Pods-AppGitHubTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHubTests-Info.plist"; sourceTree = "<group>"; };
+		2B034FC2A0CFC7FE5D7389A753B96703 /* Pods-AppGitHub-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHub-Info.plist"; sourceTree = "<group>"; };
+		34306BE3186DDEBE97B1590DF644A612 /* Pods-AppGitHub-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppGitHub-frameworks.sh"; sourceTree = "<group>"; };
+		35A37DC3CAA796CE7CC2D78D8E29C5B5 /* AmitySDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AmitySDK.xcframework; path = Distribution/AmitySDK.xcframework; sourceTree = "<group>"; };
 		3944296C5F322B1DA103FAE39F126DF8 /* Pods_AppGitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppGitHub.framework; path = "Pods-AppGitHub.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4402988534E47CC53BB6792141893735 /* Pods-AppGitHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHubTests.debug.xcconfig"; sourceTree = "<group>"; };
-		49428193B21C7656AB28229A03BDCAF2 /* Pods-AppGitHubTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppGitHubTests-dummy.m"; sourceTree = "<group>"; };
-		55CD975DFE9EFC60EDD36D4290702D4B /* Pods-AppGitHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHub.debug.xcconfig"; sourceTree = "<group>"; };
-		5A9062DBA3521DF6F6F2E9377298DA90 /* Pods-AppGitHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHub.release.xcconfig"; sourceTree = "<group>"; };
-		5C3C43605D1A483911CD3303375F46F1 /* Pods-AppGitHub-AppGitHubUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppGitHub-AppGitHubUITests-umbrella.h"; sourceTree = "<group>"; };
-		5C84FB694FC39BF2D768515A19C48BE4 /* Pods-AppGitHub-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppGitHub-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69A5FB358E987A86CE9A7FBFE0A72269 /* Pods-AppGitHub-AppGitHubUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHub-AppGitHubUITests-Info.plist"; sourceTree = "<group>"; };
-		6C274A4D1D00832F3094B81629931F27 /* Pods-AppGitHub-AppGitHubUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHub-AppGitHubUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6D31892FCBD2D738F1F198DF94AF3200 /* Pods-AppGitHubTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppGitHubTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B67270FBDC59C70D28D2D18D3BAD789 /* Pods-AppGitHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHub.release.xcconfig"; sourceTree = "<group>"; };
+		3C30D7984AAFFCDD356C19245B3FACF7 /* Pods-AppGitHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHubTests.release.xcconfig"; sourceTree = "<group>"; };
+		45166751FB33238C0E518F2C827862F3 /* Pods-AppGitHub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppGitHub.modulemap"; sourceTree = "<group>"; };
+		4953C5C291D751B90A55EF16BB07036F /* Pods-AppGitHubTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHubTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		497E9E30A92DB037F7176E39D35CB924 /* Realm.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Realm.xcframework; path = Distribution/Realm.xcframework; sourceTree = "<group>"; };
+		60AEC7D5BE3E35A03847775EB7C3D459 /* Pods-AppGitHubTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppGitHubTests-dummy.m"; sourceTree = "<group>"; };
+		6158306AE3A8EADF39C3A39A2BF60FCA /* Pods-AppGitHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71990B7A384E60EA3BD1572A3EB25F25 /* Pods-AppGitHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppGitHub-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		784DE7EBB6E38F6089D77B04D9645510 /* Pods-AppGitHub-AppGitHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHub-AppGitHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7B6A4E674D63B61AEC65F50DA21DEABF /* Pods-AppGitHub-AppGitHubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHub-AppGitHubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7311DB74DE60D15A9FF0545DC18B0B75 /* Pods-AppGitHub-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppGitHub-acknowledgements.markdown"; sourceTree = "<group>"; };
+		757CE12DDBD66085447B861F084DE3D7 /* Pods-AppGitHub-AppGitHubUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHub-AppGitHubUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76E0A6C22E475413C345A584C47E89A1 /* AmityUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmityUIKit.release.xcconfig; sourceTree = "<group>"; };
 		7FCD0B4FE2257274ED42DE72AE2BCC69 /* Pods_AppGitHub_AppGitHubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppGitHub_AppGitHubUITests.framework; path = "Pods-AppGitHub-AppGitHubUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89638AADB84024574DE5474DBC40CC94 /* Pods-AppGitHubTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHubTests-Info.plist"; sourceTree = "<group>"; };
+		83EC1D50B6660B0751CE7A158DFFE3A1 /* Pods-AppGitHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHub.debug.xcconfig"; sourceTree = "<group>"; };
+		85BF9F5E27FCC8A5E967FB5F95323EEE /* Pods-AppGitHub-AppGitHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHub-AppGitHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A335E6AFE0AC4FDAD6FAF16F2AEEA87 /* Pods-AppGitHub-AppGitHubUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHub-AppGitHubUITests-Info.plist"; sourceTree = "<group>"; };
+		9D5322B82A0CBCFC74E2014624E04DF8 /* Pods-AppGitHub-AppGitHubUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppGitHub-AppGitHubUITests-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A96438205A6EB3DB62D1A03584FFF3F1 /* Pods_AppGitHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppGitHubTests.framework; path = "Pods-AppGitHubTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5EEAB2C082A359BF1D65CF2F65A4529 /* Pods-AppGitHubTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppGitHubTests-umbrella.h"; sourceTree = "<group>"; };
-		B63F7E84CD39E3F5BDE9B1C831FA197D /* Pods-AppGitHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppGitHub-umbrella.h"; sourceTree = "<group>"; };
-		CACC797B45328099FE826FADDC894CE0 /* Pods-AppGitHub-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHub-acknowledgements.plist"; sourceTree = "<group>"; };
-		CF1F6F031D6467E6176E9FB6F7A91010 /* Pods-AppGitHub-AppGitHubUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppGitHub-AppGitHubUITests.modulemap"; sourceTree = "<group>"; };
-		DC33737F4A168CB120865D1758BC1073 /* Pods-AppGitHubTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppGitHubTests.modulemap"; sourceTree = "<group>"; };
-		EC535F78E78884F79BCDBDE2F2494E40 /* Pods-AppGitHub-AppGitHubUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppGitHub-AppGitHubUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F47A7AC2F5B20B7A004C759885886913 /* Pods-AppGitHub-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHub-Info.plist"; sourceTree = "<group>"; };
-		FE1CF9B1608259CA2F565D23E7ECDCDF /* Pods-AppGitHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppGitHubTests.release.xcconfig"; sourceTree = "<group>"; };
+		AAAEF3D310CD128D707A490B0BDF784F /* AmityUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmityUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		AD6FE1093D3166F9D8F0514170F15C8D /* AmityUIKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AmityUIKit.xcframework; path = Distribution/AmityUIKit.xcframework; sourceTree = "<group>"; };
+		AD7D0E02C82DA1D9E44D5236218317A6 /* Pods-AppGitHub-AppGitHubUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppGitHub-AppGitHubUITests-dummy.m"; sourceTree = "<group>"; };
+		B4C70401D768F152AD496ED5E07122F6 /* Pods-AppGitHubTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppGitHubTests-umbrella.h"; sourceTree = "<group>"; };
+		B4F50042E71348FA1C297DB2DF521F2C /* Pods-AppGitHubTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppGitHubTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B856D13DB865F38D2D7E808FD6FC0C0B /* Pods-AppGitHub-AppGitHubUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppGitHub-AppGitHubUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B88EF84FF5F46A9F7B8CF5E54D9CF020 /* AmityUIKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AmityUIKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		BB2C4FF7B84FC49D44282D941E5FF91B /* Pods-AppGitHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppGitHub-dummy.m"; sourceTree = "<group>"; };
+		C4B508E1C43563CCCA70BF9307D92FF1 /* Pods-AppGitHub-AppGitHubUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppGitHub-AppGitHubUITests.modulemap"; sourceTree = "<group>"; };
+		D2A9C7369F3AE95FA07FCE29C4465171 /* Pods-AppGitHub-AppGitHubUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppGitHub-AppGitHubUITests-umbrella.h"; sourceTree = "<group>"; };
+		E991F73104030145C0BD704BF2B0E3F2 /* Pods-AppGitHub-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppGitHub-acknowledgements.plist"; sourceTree = "<group>"; };
+		EDD29BAA8A830E3DA3EACDBEFCCF6776 /* Pods-AppGitHubTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppGitHubTests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,36 +123,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26DA585FF8A1532273DB36ACE655E506 /* Pods-AppGitHubTests */ = {
+		2E181E68C76231DA2C91F6C24D606B54 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC33737F4A168CB120865D1758BC1073 /* Pods-AppGitHubTests.modulemap */,
-				6D31892FCBD2D738F1F198DF94AF3200 /* Pods-AppGitHubTests-acknowledgements.markdown */,
-				2C48A7800F8E983255BE3C39D9CDB9A2 /* Pods-AppGitHubTests-acknowledgements.plist */,
-				49428193B21C7656AB28229A03BDCAF2 /* Pods-AppGitHubTests-dummy.m */,
-				89638AADB84024574DE5474DBC40CC94 /* Pods-AppGitHubTests-Info.plist */,
-				B5EEAB2C082A359BF1D65CF2F65A4529 /* Pods-AppGitHubTests-umbrella.h */,
-				4402988534E47CC53BB6792141893735 /* Pods-AppGitHubTests.debug.xcconfig */,
-				FE1CF9B1608259CA2F565D23E7ECDCDF /* Pods-AppGitHubTests.release.xcconfig */,
+				B88EF84FF5F46A9F7B8CF5E54D9CF020 /* AmityUIKit-xcframeworks.sh */,
+				AAAEF3D310CD128D707A490B0BDF784F /* AmityUIKit.debug.xcconfig */,
+				76E0A6C22E475413C345A584C47E89A1 /* AmityUIKit.release.xcconfig */,
 			);
-			name = "Pods-AppGitHubTests";
-			path = "Target Support Files/Pods-AppGitHubTests";
-			sourceTree = "<group>";
-		};
-		26F28CF88C69C8B380E05F5B3D7E0609 /* Pods-AppGitHub */ = {
-			isa = PBXGroup;
-			children = (
-				32ECF642F64789363BAA8967B465442A /* Pods-AppGitHub.modulemap */,
-				5C84FB694FC39BF2D768515A19C48BE4 /* Pods-AppGitHub-acknowledgements.markdown */,
-				CACC797B45328099FE826FADDC894CE0 /* Pods-AppGitHub-acknowledgements.plist */,
-				2738EC84EA408C24D0452622FE6BE215 /* Pods-AppGitHub-dummy.m */,
-				F47A7AC2F5B20B7A004C759885886913 /* Pods-AppGitHub-Info.plist */,
-				B63F7E84CD39E3F5BDE9B1C831FA197D /* Pods-AppGitHub-umbrella.h */,
-				55CD975DFE9EFC60EDD36D4290702D4B /* Pods-AppGitHub.debug.xcconfig */,
-				5A9062DBA3521DF6F6F2E9377298DA90 /* Pods-AppGitHub.release.xcconfig */,
-			);
-			name = "Pods-AppGitHub";
-			path = "Target Support Files/Pods-AppGitHub";
+			name = "Support Files";
+			path = "../Target Support Files/AmityUIKit";
 			sourceTree = "<group>";
 		};
 		517E406ED24C5A0A4CD4BAF8FBC52B88 /* Products */ = {
@@ -166,47 +152,65 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6277C557DAFE00F21D01AEE8B8F4C9DE /* Pods */ = {
+		6FD6483F9EDA9148EF07CD6B1D70D084 /* Pods-AppGitHubTests */ = {
 			isa = PBXGroup;
 			children = (
-				7CCB007362A088D6F7FACE43298B8439 /* AmityUIKit */,
+				EDD29BAA8A830E3DA3EACDBEFCCF6776 /* Pods-AppGitHubTests.modulemap */,
+				B4F50042E71348FA1C297DB2DF521F2C /* Pods-AppGitHubTests-acknowledgements.markdown */,
+				4953C5C291D751B90A55EF16BB07036F /* Pods-AppGitHubTests-acknowledgements.plist */,
+				60AEC7D5BE3E35A03847775EB7C3D459 /* Pods-AppGitHubTests-dummy.m */,
+				105C8257682F0114782B42D38140453B /* Pods-AppGitHubTests-Info.plist */,
+				B4C70401D768F152AD496ED5E07122F6 /* Pods-AppGitHubTests-umbrella.h */,
+				6158306AE3A8EADF39C3A39A2BF60FCA /* Pods-AppGitHubTests.debug.xcconfig */,
+				3C30D7984AAFFCDD356C19245B3FACF7 /* Pods-AppGitHubTests.release.xcconfig */,
+			);
+			name = "Pods-AppGitHubTests";
+			path = "Target Support Files/Pods-AppGitHubTests";
+			sourceTree = "<group>";
+		};
+		7F8E8C591A3732117FB31EAA4413006A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				906149D5D4544E413947C55DDE1DA52C /* AmityUIKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		720E8E2BD9EC4C97CA0449A7BF5F30CA /* Pods-AppGitHub-AppGitHubUITests */ = {
+		906149D5D4544E413947C55DDE1DA52C /* AmityUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				CF1F6F031D6467E6176E9FB6F7A91010 /* Pods-AppGitHub-AppGitHubUITests.modulemap */,
-				EC535F78E78884F79BCDBDE2F2494E40 /* Pods-AppGitHub-AppGitHubUITests-acknowledgements.markdown */,
-				6C274A4D1D00832F3094B81629931F27 /* Pods-AppGitHub-AppGitHubUITests-acknowledgements.plist */,
-				2E80A1A25A03BC7D88BCBF4C2E27478F /* Pods-AppGitHub-AppGitHubUITests-dummy.m */,
-				69A5FB358E987A86CE9A7FBFE0A72269 /* Pods-AppGitHub-AppGitHubUITests-Info.plist */,
-				5C3C43605D1A483911CD3303375F46F1 /* Pods-AppGitHub-AppGitHubUITests-umbrella.h */,
-				784DE7EBB6E38F6089D77B04D9645510 /* Pods-AppGitHub-AppGitHubUITests.debug.xcconfig */,
-				7B6A4E674D63B61AEC65F50DA21DEABF /* Pods-AppGitHub-AppGitHubUITests.release.xcconfig */,
+				AB041BEA7D82CBC834AE1F1E3255D8C9 /* Frameworks */,
+				2E181E68C76231DA2C91F6C24D606B54 /* Support Files */,
+			);
+			name = AmityUIKit;
+			path = AmityUIKit;
+			sourceTree = "<group>";
+		};
+		9E21C601ED4598E85D08F03839227B72 /* Pods-AppGitHub-AppGitHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4B508E1C43563CCCA70BF9307D92FF1 /* Pods-AppGitHub-AppGitHubUITests.modulemap */,
+				B856D13DB865F38D2D7E808FD6FC0C0B /* Pods-AppGitHub-AppGitHubUITests-acknowledgements.markdown */,
+				757CE12DDBD66085447B861F084DE3D7 /* Pods-AppGitHub-AppGitHubUITests-acknowledgements.plist */,
+				AD7D0E02C82DA1D9E44D5236218317A6 /* Pods-AppGitHub-AppGitHubUITests-dummy.m */,
+				9D5322B82A0CBCFC74E2014624E04DF8 /* Pods-AppGitHub-AppGitHubUITests-frameworks.sh */,
+				9A335E6AFE0AC4FDAD6FAF16F2AEEA87 /* Pods-AppGitHub-AppGitHubUITests-Info.plist */,
+				D2A9C7369F3AE95FA07FCE29C4465171 /* Pods-AppGitHub-AppGitHubUITests-umbrella.h */,
+				85BF9F5E27FCC8A5E967FB5F95323EEE /* Pods-AppGitHub-AppGitHubUITests.debug.xcconfig */,
+				056A31A581C199CD7EF6620AF8A8E417 /* Pods-AppGitHub-AppGitHubUITests.release.xcconfig */,
 			);
 			name = "Pods-AppGitHub-AppGitHubUITests";
 			path = "Target Support Files/Pods-AppGitHub-AppGitHubUITests";
 			sourceTree = "<group>";
 		};
-		723A23B8BD9098245D07B51338FB042B /* Targets Support Files */ = {
+		AB041BEA7D82CBC834AE1F1E3255D8C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26F28CF88C69C8B380E05F5B3D7E0609 /* Pods-AppGitHub */,
-				720E8E2BD9EC4C97CA0449A7BF5F30CA /* Pods-AppGitHub-AppGitHubUITests */,
-				26DA585FF8A1532273DB36ACE655E506 /* Pods-AppGitHubTests */,
+				35A37DC3CAA796CE7CC2D78D8E29C5B5 /* AmitySDK.xcframework */,
+				AD6FE1093D3166F9D8F0514170F15C8D /* AmityUIKit.xcframework */,
+				497E9E30A92DB037F7176E39D35CB924 /* Realm.xcframework */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7CCB007362A088D6F7FACE43298B8439 /* AmityUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				F7B9C885DE9C4A060350AA39D1ACA4A5 /* Support Files */,
-			);
-			name = AmityUIKit;
-			path = AmityUIKit;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -214,9 +218,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				6277C557DAFE00F21D01AEE8B8F4C9DE /* Pods */,
+				7F8E8C591A3732117FB31EAA4413006A /* Pods */,
 				517E406ED24C5A0A4CD4BAF8FBC52B88 /* Products */,
-				723A23B8BD9098245D07B51338FB042B /* Targets Support Files */,
+				E7EC9C8D1FC3FC43129DF015E85B8E8B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -228,14 +232,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7B9C885DE9C4A060350AA39D1ACA4A5 /* Support Files */ = {
+		E7EC9C8D1FC3FC43129DF015E85B8E8B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				082A2B2A5500A79881CF2D19D27696CB /* AmityUIKit.debug.xcconfig */,
-				2576019F9C0D9EA70333669E0D1F4741 /* AmityUIKit.release.xcconfig */,
+				ED97C05185AB72A9A9E96FB33D3796DE /* Pods-AppGitHub */,
+				9E21C601ED4598E85D08F03839227B72 /* Pods-AppGitHub-AppGitHubUITests */,
+				6FD6483F9EDA9148EF07CD6B1D70D084 /* Pods-AppGitHubTests */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AmityUIKit";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ED97C05185AB72A9A9E96FB33D3796DE /* Pods-AppGitHub */ = {
+			isa = PBXGroup;
+			children = (
+				45166751FB33238C0E518F2C827862F3 /* Pods-AppGitHub.modulemap */,
+				7311DB74DE60D15A9FF0545DC18B0B75 /* Pods-AppGitHub-acknowledgements.markdown */,
+				E991F73104030145C0BD704BF2B0E3F2 /* Pods-AppGitHub-acknowledgements.plist */,
+				BB2C4FF7B84FC49D44282D941E5FF91B /* Pods-AppGitHub-dummy.m */,
+				34306BE3186DDEBE97B1590DF644A612 /* Pods-AppGitHub-frameworks.sh */,
+				2B034FC2A0CFC7FE5D7389A753B96703 /* Pods-AppGitHub-Info.plist */,
+				71990B7A384E60EA3BD1572A3EB25F25 /* Pods-AppGitHub-umbrella.h */,
+				83EC1D50B6660B0751CE7A158DFFE3A1 /* Pods-AppGitHub.debug.xcconfig */,
+				3B67270FBDC59C70D28D2D18D3BAD789 /* Pods-AppGitHub.release.xcconfig */,
+			);
+			name = "Pods-AppGitHub";
+			path = "Target Support Files/Pods-AppGitHub";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +301,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9A292CC3D18D81799EF9258DD9A1E95F /* PBXTargetDependency */,
+				0E547782306AC783FE70E7F63B958D07 /* PBXTargetDependency */,
 			);
 			name = "Pods-AppGitHub-AppGitHubUITests";
 			productName = "Pods-AppGitHub-AppGitHubUITests";
@@ -299,7 +320,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C51E56DF20E823F7D9ACD72C68A0B465 /* PBXTargetDependency */,
+				B90A5E7DC6322BD6B9E1105E4DF795BA /* PBXTargetDependency */,
 			);
 			name = "Pods-AppGitHub";
 			productName = "Pods-AppGitHub";
@@ -318,7 +339,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				98545E086C63C89EC3B7ADB01970B2C6 /* PBXTargetDependency */,
+				390FAFF86D4FAB8DF70C0E5B63838F6D /* PBXTargetDependency */,
 			);
 			name = "Pods-AppGitHubTests";
 			productName = "Pods-AppGitHubTests";
@@ -379,6 +400,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE6F22A5A670BD942E7427237C644E0D /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AmityUIKit/AmityUIKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AmityUIKit/AmityUIKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AmityUIKit/AmityUIKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		955C197B539970B7434D02E72EC456D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -407,30 +448,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		98545E086C63C89EC3B7ADB01970B2C6 /* PBXTargetDependency */ = {
+		0E547782306AC783FE70E7F63B958D07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AmityUIKit;
+			target = DF34FC2DC78DFEB492AD8FAEB658D28C /* AmityUIKit */;
+			targetProxy = 5D14BE71613E83F799315C0BD336CE88 /* PBXContainerItemProxy */;
+		};
+		390FAFF86D4FAB8DF70C0E5B63838F6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AppGitHub";
 			target = 1E3ECBF91C985C68C1944BB91F46E006 /* Pods-AppGitHub */;
-			targetProxy = 942F300312A56BE46EC7D1C83675E50B /* PBXContainerItemProxy */;
+			targetProxy = B0FB36A49748CF0615B79801D24A9DA0 /* PBXContainerItemProxy */;
 		};
-		9A292CC3D18D81799EF9258DD9A1E95F /* PBXTargetDependency */ = {
+		B90A5E7DC6322BD6B9E1105E4DF795BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AmityUIKit;
 			target = DF34FC2DC78DFEB492AD8FAEB658D28C /* AmityUIKit */;
-			targetProxy = A94E115A58D37EDAC06AB13C1EFF935F /* PBXContainerItemProxy */;
-		};
-		C51E56DF20E823F7D9ACD72C68A0B465 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AmityUIKit;
-			target = DF34FC2DC78DFEB492AD8FAEB658D28C /* AmityUIKit */;
-			targetProxy = 04FD674EFFFB24FBF9D859105572D3E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D3DE4EFDF4514544D68CDBB2AD5F16 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0B612175CF51DF08BDE894DEBBE7C542 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A9062DBA3521DF6F6F2E9377298DA90 /* Pods-AppGitHub.release.xcconfig */;
+			baseConfigurationReference = 3B67270FBDC59C70D28D2D18D3BAD789 /* Pods-AppGitHub.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -466,9 +507,9 @@
 			};
 			name = Release;
 		};
-		4F69D8BFB03BC619192380D726B39E9D /* Debug */ = {
+		0DCB08AB4AA65FA399E4ADC1008ED3EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 082A2B2A5500A79881CF2D19D27696CB /* AmityUIKit.debug.xcconfig */;
+			baseConfigurationReference = 76E0A6C22E475413C345A584C47E89A1 /* AmityUIKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,12 +521,13 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		6A987EE2FCF4A7EEDAC3A1C7886D7CC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 784DE7EBB6E38F6089D77B04D9645510 /* Pods-AppGitHub-AppGitHubUITests.debug.xcconfig */;
+			baseConfigurationReference = 85BF9F5E27FCC8A5E967FB5F95323EEE /* Pods-AppGitHub-AppGitHubUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -522,7 +564,7 @@
 		};
 		6AA5DB15665AEB2FF652D7D6222A5A60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55CD975DFE9EFC60EDD36D4290702D4B /* Pods-AppGitHub.debug.xcconfig */;
+			baseConfigurationReference = 83EC1D50B6660B0751CE7A158DFFE3A1 /* Pods-AppGitHub.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -557,9 +599,26 @@
 			};
 			name = Debug;
 		};
+		6DD3527AA19CFCE6C21582B17A5A26F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAAEF3D310CD128D707A490B0BDF784F /* AmityUIKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		B8C48AE09DDC796D3C67C1A4DD962C8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4402988534E47CC53BB6792141893735 /* Pods-AppGitHubTests.debug.xcconfig */;
+			baseConfigurationReference = 6158306AE3A8EADF39C3A39A2BF60FCA /* Pods-AppGitHubTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -724,7 +783,7 @@
 		};
 		DA842521186DBFF6CE333BFAF369BC91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE1CF9B1608259CA2F565D23E7ECDCDF /* Pods-AppGitHubTests.release.xcconfig */;
+			baseConfigurationReference = 3C30D7984AAFFCDD356C19245B3FACF7 /* Pods-AppGitHubTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -762,7 +821,7 @@
 		};
 		EC34CB3C3B04798F0E815CDF65D593D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B6A4E674D63B61AEC65F50DA21DEABF /* Pods-AppGitHub-AppGitHubUITests.release.xcconfig */;
+			baseConfigurationReference = 056A31A581C199CD7EF6620AF8A8E417 /* Pods-AppGitHub-AppGitHubUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -795,24 +854,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ED1CD1B75A671EDB687A02DBEA2F4B3F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2576019F9C0D9EA70333669E0D1F4741 /* AmityUIKit.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -855,11 +896,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B8243B1FB6595DBB7D6E92F9FADFDE /* Build configuration list for PBXAggregateTarget "AmityUIKit" */ = {
+		EE82790B076A0E2B11BA5E407A634B7F /* Build configuration list for PBXAggregateTarget "AmityUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F69D8BFB03BC619192380D726B39E9D /* Debug */,
-				ED1CD1B75A671EDB687A02DBEA2F4B3F /* Release */,
+				6DD3527AA19CFCE6C21582B17A5A26F6 /* Debug */,
+				0DCB08AB4AA65FA399E4ADC1008ED3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
