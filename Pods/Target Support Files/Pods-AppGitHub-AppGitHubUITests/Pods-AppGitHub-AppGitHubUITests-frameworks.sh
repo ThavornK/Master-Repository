@@ -175,11 +175,13 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CalendarKit/CalendarKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AmityUIKit/AmityUIKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AmitySDK/AmitySDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Realm/Realm.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CalendarKit/CalendarKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AmityUIKit/AmityUIKit.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AmitySDK/AmitySDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Realm/Realm.framework"

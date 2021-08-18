@@ -1,16 +1,21 @@
 PODS:
   - AmityUIKit (2.0.4)
+  - CalendarKit (1.0.12)
 
 DEPENDENCIES:
   - AmityUIKit (= 2.0.4)
+  - CalendarKit
 
 SPEC REPOS:
   https://github.com/ThavornK/TestPodInstall.git:
     - AmityUIKit
+  trunk:
+    - CalendarKit
 
 SPEC CHECKSUMS:
-  AmityUIKit: 1f2119f27569c409940bdc380224903e7fa54310
+  AmityUIKit: c6f8987e726165b31076a58409de56376e926c8d
+  CalendarKit: 3da636e7e5ebfd6f75791b4d727e9531b50a896c
 
-PODFILE CHECKSUM: e98fab0d877572667c2da88ff40a36901e796c74
+PODFILE CHECKSUM: 6c69e7cb0b8d7a69bae4496bf399a439ae4f3430
 
 COCOAPODS: 1.10.1

@@ -7,6 +7,7 @@ target 'AppGitHub' do
 
   # Pods for AppGitHub
 pod 'AmityUIKit', '2.0.4', :source => 'https://github.com/ThavornK/TestPodInstall.git'
+pod 'CalendarKit'
 
   target 'AppGitHubTests' do
     inherit! :search_paths
