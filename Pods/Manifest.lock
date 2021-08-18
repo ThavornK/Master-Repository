@@ -1,0 +1,16 @@
+PODS:
+  - AmityUIKit (2.0.4)
+
+DEPENDENCIES:
+  - AmityUIKit
+
+SPEC REPOS:
+  https://github.com/AmityCo/Amity-Social-Cloud-UIKit-iOS-Pod-Pulse.git:
+    - AmityUIKit
+
+SPEC CHECKSUMS:
+  AmityUIKit: e9ce49eda8b7be10f486438ebb133b659814ebc3
+
+PODFILE CHECKSUM: 7ab94834de8ca4a9e4a5aa47c1f2d354d04bd59d
+
+COCOAPODS: 1.10.1
